@@ -18,9 +18,7 @@ um clone da página inicial da netflix utilizando HTML, CSS e JavaScript.
 
 - ​	Criei um modal para login, como mostra a imagem abaixo:  
 
-![image-20210301152711019](C:\Users\Laís PC\AppData\Roaming\Typora\typora-user-images\image-20210301152711019.png)
-
-
+![Modal de login](https://drive.google.com/file/d/1n4NGGBbtFzA7WJvaH8FPDY2GubROpAhc/view?usp=sharing)
 
 - ao passar o mouse por cima da imagem do filme principal, ele mostra uma "prévia de vídeo" (experimentei com um gif);
 
@@ -28,9 +26,8 @@ um clone da página inicial da netflix utilizando HTML, CSS e JavaScript.
 
   
 
-  ![ezgif.com-gif-maker](C:\Users\Laís PC\Downloads\ezgif.com-gif-maker.gif)
+  ![ezgif.com-gif-maker](https://drive.google.com/file/d/1A2pXX2K6aoyEw0Odfd3HbfMEK6-aZ_ve/view?usp=sharing)
 
 
 
 
- 
