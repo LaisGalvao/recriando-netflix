@@ -1,0 +1,420 @@
+/*feito para ajustar
+para telas pequenas - Design Responsivo*/
+
+/*para telas bem pequenas, em especial iphones 4, 5, 6 e X
+(entre outros )*/
+@media screen and (min-width: 320px) and (max-width: 399px){
+
+	/*tirando o evento hover do filme principal
+	em telas menores*/
+	.filme-principal:not(.tira-gif):hover{
+			width: 100%;
+			height: 700px;
+			pointer-events: none;
+	}
+
+	.filme-principal{
+		width: 100%;
+		height: 700px;
+	}
+
+	.titulo{
+		font-size: 2em;
+		margin-top: 100px;
+
+	}
+
+	.sinopse{
+		font-size: 1em;
+		margin-bottom: 90px;
+	}
+
+	.item .popup-click{
+		margin-top: 10px;
+		margin-left: 55px;
+		width: 250px;
+  		height: 370px;
+	}
+
+	.box-filme{
+		margin-left: 20px;
+		padding: 15px;
+		width: 100%;
+		height: 100%;
+	}
+
+	.botao{
+		margin-bottom: 10px;
+		width: 300px;
+		height: 50px;
+	}
+
+	header .container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	}
+
+	header nav a{
+		width: 100%;
+		height: 50px;
+		background-color: #000;
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+		padding-left: 85px;
+	}
+
+	header .logo{
+		font-size: 1.9em;
+		width: 100%;
+		height: 20px;
+		float: right;
+		margin-right: 20px;
+		margin-top: -5px;
+	}
+
+	header .menu-top{
+		width: 100%;
+		height: 30px;
+		flex-direction: column;
+		display: flex;
+		position: fixed;
+		/*gambiarra para alinhar o menu aonda queria jkkkkk*/
+		margin-left: -20px;
+	}
+
+	.hamburguer{
+		margin-top: 25px;
+		height: 50px;
+		width: 100%;
+	}
+
+
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 502px){
+
+
+	.botao{
+		margin-bottom: 10px;
+		width: 300px;
+		height: 50px;
+	}
+
+	header .container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	}
+
+	header nav a{
+		width: 100%;
+		height: 50px;
+		background-color: #000;
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+		padding-left: 85px;
+	}
+
+	header .logo{
+		font-size: 1.9em;
+		width: 100%;
+		height: 20px;
+		float: right;
+		margin-right: 20px;
+		margin-top: -5px;
+	}
+
+	header .menu-top{
+		width: 100%;
+		height: 30px;
+		flex-direction: column;
+		display: flex;
+		position: fixed;
+		/*gambiarra para alinhar o menu aonda queria jkkkkk*/
+		margin-left: -20px;
+	}
+
+	.hamburguer{
+		margin-top: 25px;
+		height: 50px;
+		width: 100%;
+	}
+
+
+
+	.item .popup-click{
+		margin-top: 10px;
+		margin-left: 55px;
+		width: 350px;
+  		height: 370px;
+	}
+
+	.box-filme{
+		margin-left: 30px;
+		padding: 10px;
+		width: 100%;
+		height: 100%;
+	}
+
+}
+
+
+/*para corrigir um pouco do tamanho
+ do box de filmes
+e seu espaçamento*/
+@media screen and (min-width: 503px) and (max-width: 599px){
+
+
+header .container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	}
+
+	header nav a{
+		width: 100%;
+		height: 50px;
+		background-color: #000;
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+		padding-left: 85px;
+	}
+
+	header .logo{
+		font-size: 1.9em;
+		width: 100%;
+		height: 20px;
+		float: right;
+		margin-right: 20px;
+		margin-top: -5px;
+	}
+
+	header .menu-top{
+		width: 100%;
+		height: 30px;
+		flex-direction: column;
+		display: flex;
+		position: fixed;
+		/*gambiarra para alinhar o menu aonda queria jkkkkk*/
+		margin-left: -20px;
+	}
+
+	.hamburguer{
+		margin-top: 25px;
+		height: 50px;
+		width: 100%;
+	}
+
+.botao{
+		margin-bottom: 10px;
+		width: 300px;
+		height: 50px;
+	}
+
+	.item .popup-click{
+		margin-top: 10px;
+		margin-left: 75px;
+		width: 350px;
+  		height: 370px;
+	}
+
+	.box-filme{
+		margin-left: 60px;
+		padding: 10px;
+		width: 100%;
+		height: 100%;
+	}
+
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 700px){
+
+	header .container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	}
+
+	header nav a{
+		width: 100%;
+		height: 50px;
+		background-color: #000;
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+		padding-left: 85px;
+	}
+
+	header .logo{
+		font-size: 1.9em;
+		width: 100%;
+		height: 20px;
+		float: right;
+		margin-right: 20px;
+		margin-top: -5px;
+	}
+
+	header .menu-top{
+		width: 100%;
+		height: 30px;
+		flex-direction: column;
+		display: flex;
+		position: fixed;
+		/*gambiarra para alinhar o menu aonda queria jkkkkk*/
+		margin-left: -20px;
+	}
+
+	.hamburguer{
+		margin-top: 25px;
+		height: 50px;
+		width: 100%;
+	}
+
+	.botao{
+		margin-bottom: 10px;
+		width: 300px;
+		height: 50px;
+	}
+
+	.item .popup-click{
+		margin-top: 10px;
+		margin-left: 45px;
+		width: 250px;
+  		height: 370px;
+	}
+
+	.box-filme{
+		padding: 45px;
+		width: 100%;
+		height: 100%;
+	}
+
+}
+/*ele funciona em telas médias, mas em telas um pouco
+menores, como a do iphone 4/ iphone 5 ele corta
+a classe filme principal, entre outros errinhos
+e a fonte fica grande, por isso fiz mais media queries */
+@media screen and (min-width: 701px) and (max-width: 742px){
+
+	header .container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	}
+
+	header nav a{
+		width: 100%;
+		height: 50px;
+		background-color: #000;
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		text-align: center;
+		padding-left: 85px;
+	}
+
+	header .logo{
+		font-size: 1.9em;
+		width: 100%;
+		height: 20px;
+		float: right;
+		margin-right: 20px;
+		margin-top: -5px;
+	}
+
+	header .menu-top{
+		width: 100%;
+		height: 30px;
+		flex-direction: column;
+		display: flex;
+		position: fixed;
+		/*gambiarra para alinhar o menu aonda queria jkkkkk*/
+		margin-left: -20px;
+	}
+
+	.hamburguer{
+		margin-top: 25px;
+		height: 50px;
+		width: 100%;
+	}
+
+	/*botões de assistir e infos*/
+	.botao{
+		margin-bottom: 10px;
+		width: 300px;
+		height: 50px;
+	}
+
+	/*tirando o evento hover do filme principal
+	em telas menores*/
+	.filme-principal:not(.tira-gif):hover{
+		height: 600px;
+		pointer-events: none;
+	}
+
+	.item{
+		width: 250px;
+  		height: 420px;
+	}
+
+}
+
+/*aqui já estamos trabalhando
+em telas maiores, então retirei
+aquele menu hamburguer*/
+@media screen and (min-width: 743px){
+
+	.hamburguer, .btnClose{
+		display: none;
+	}
+
+	.item .popup-click{
+		margin-top: 10px;
+		margin-left: 45px;
+		width: 350px;
+  		height: 370px;
+  		font-size: 1.25em;
+	}
+
+}
+
+/*telas grandes*/
+@media screen and (min-width: 1000px){
+
+	/*sinopse mais compacta em telas maiores*/
+	.filme-principal .sinopse{
+		width: 50%;
+	}
+
+	.item .popup-click{
+		margin-top: 1px;
+		margin-left: 5px;
+		width: 250px;
+  		height: 370px;
+  		font-size: 1em;
+	}
+
+	.hamburguer, .btnClose{
+		display: none;
+	}
+}

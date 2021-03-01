@@ -1,0 +1,256 @@
+/*css principal
+os outros ajustes estão
+lá no responsivo.css*/
+
+/*paleta de cores (exceto o cinza claro) encontrada no
+https://brandpalettes.com/
+o cinza claro eu coloquei porque
+combinou hehehe */
+
+/*variáveis css (obrigada ao prof Felipe Aguiar!
+nem seu sabia dessa
+mesmo depois de estudar tanto!)*/
+:root{
+	--vermelho:#E50914;
+	--preto: #141414;
+	--cinzaclaro: #AAA;
+	--cinzaescuro: #565656;
+	--branco: #FFF;
+}
+
+/*elementos base*/
+body{
+	background: var(--preto);
+	font-family: "Bebas Neue", cursive, "Roboto", sans-serif;
+	color: var(--branco);
+}
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*meu cabeçalho*/
+header .container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header .logo{
+	color: var(--vermelho);
+	font-family: 'Arial Black', cursive;
+	font-size: 2.5em;
+	margin-left: 5px;
+}
+
+header .menu-top{
+	font-size: 1.5em;
+}
+
+header nav a{
+	text-decoration: none;
+	color: var(--cinzaclaro);
+	margin-right: 55px;
+}
+
+header nav a:hover{
+	color: var(--branco);
+}
+
+
+/*filme principal*/
+.filme-principal{
+	font-size: 16px;
+	background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%) , url("../img/capa-greys.jpg");
+
+	background-size: cover;
+	height: 600px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.filme-principal:hover{
+	background: url('https://media.giphy.com/media/ye3GrHj4n2L8abeK9C/giphy-downsized-large.gif');
+	background-size: cover;
+	height: 600px;
+}
+
+.filme-principal .sinopse{
+	margin-top: 10px;
+	margin-bottom: 90px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.titulo{
+	margin-top: 15%;
+	font-size: 40px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.container{
+	margin-left: 20px;
+}
+
+.filme-principal .container{
+	width: 70%;
+}
+
+/*configs do modal
+(usei a lib modal jquery pra facilitar o trabalho,
+e ainda assim tive que alterar
+pois ele por padrão vem na cor branca :/ )*/
+
+
+/*modal do botão
+"mais informações" */
+.modal{
+	color: var(--cinzaclaro);
+}
+
+.md-image{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+
+/*modal de login*/
+
+.form-login{
+	width: 100%;
+	height: 400px;
+	padding: 25px;
+}
+
+.inputs{
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+}
+
+.input-label{
+	font-size: 2em;
+	margin-top: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#btnLog{
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+	border: none;
+	background-color: var(--vermelho);
+	color: var(--branco);
+	font-size: 2em;
+	cursor: pointer;
+	transition: .3s ease all;
+}
+
+#btnLog:hover{
+	background-color: var(--cinzaclaro);
+	color: var(--preto);
+}
+
+#naoCadastrado {
+	text-decoration: none;
+	color: var(--cinzaclaro);
+	font-weight: 1.2em;
+	padding: 25px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/*botoes*/
+.botao{
+	background-color: rgba(0,0,0,.50);
+	border: none;
+	color: var(--branco);
+	padding: 15px 30px;
+	margin-right: 15px;
+	font-size: 12px;
+
+	cursor: pointer;
+	transition: .3s ease all;
+}
+
+.botao:hover{
+	background-color: var(--cinzaclaro);
+	color: var(--preto);
+
+}
+
+.botao i{
+	margin-right: 8px;
+}
+
+.botao a{
+	text-decoration: none;
+	color: var(--branco);
+}
+
+
+/*box de filmes e carrossel*/
+.box-filme{
+	height: 100%;
+	width: 100%;
+	display: block;
+	cursor: pointer;
+}
+
+.carrossel-filmes{
+	margin-top: 30px;
+}
+
+.item .popup-click{
+
+  text-align: center;
+  visibility: hidden;
+  width: 250px;
+  height: 370px;
+  background-color: rgba(0,0,0,.90);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 30px 0;
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+}
+
+/* estudar vale a pena, galeris! :) */
+/*ao passar o mouse por cima, ele mostra o popup
+(que na verdade eu sei que é um tooltip mas deixa assim hehehe)*/
+.item:hover .popup-click{
+	visibility: visible;
+}
+
+
+/*aqui eu mexi naquele tooltip, pra deixar
+ele mais apresentável ao passar o mouse
+e mostrar as infos do filme*/
+
+.titulo-box{
+	font-family: "Bebas Neue", cursive, "Roboto", sans-serif;
+	font-size: 1.1em;
+}
+
+.info-box{
+	font-family: "Roboto", sans-serif;
+	font-size: 0.9em;
+}
+
+.texto-box{
+	font-family: "Roboto", sans-serif;
+	font-size: 0.9em;
+}
