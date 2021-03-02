@@ -28,4 +28,7 @@ um clone da página inicial da netflix utilizando HTML, CSS e JavaScript.
 ![Modal de login](https://github.com/LaisGalvao/recriando-netflix/blob/main/img/image.png)
 
 
-- ALterei a biblioteca, o modal vem por padrão na cor branca, alterei as propriedades do CSS para retornar o background na cor preta.
+- Alterei a biblioteca, o modal vem por padrão na cor branca, alterei as propriedades do CSS para retornar o background na cor preta.
+- -Apliquei responsividade na página.
+
+
