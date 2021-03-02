@@ -377,6 +377,10 @@ e a fonte fica grande, por isso fiz mais media queries */
   		height: 420px;
 	}
 
+	.box-filme{
+		padding: 20px;
+	}
+
 }
 
 /*aqui já estamos trabalhando
@@ -391,7 +395,7 @@ aquele menu hamburguer*/
 	.item .popup-click{
 		margin-top: 10px;
 		margin-left: 45px;
-		width: 350px;
+		width: 320px;
   		height: 370px;
   		font-size: 1.25em;
 	}
@@ -408,10 +412,11 @@ aquele menu hamburguer*/
 
 	.item .popup-click{
 		margin-top: 1px;
-		margin-left: 5px;
-		width: 250px;
+		margin-left: 1px;
+		width: 225px;
   		height: 370px;
-  		font-size: 1em;
+  		font-size: 0.95em;
+
 	}
 
 	.hamburguer, .btnClose{

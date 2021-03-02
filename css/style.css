@@ -120,6 +120,14 @@ pois ele por padrão vem na cor branca :/ )*/
 	align-items: flex-start;
 }
 
+.titulo-modal{
+	font-size: 2em;
+}
+
+.sinopse-modal{
+	font-family: "Roboto", sans-serif;
+	text-align: justify;
+}
 
 /*modal de login*/
 
