@@ -32,8 +32,8 @@
 		<h2 class="logo">NETFLIX</h2>
 		<nav class="menu-top">
 			<a href="#" class="btnClose"><i class="fas fa-times"></i></a>
-			<a href="#">Minha Lista</a>
-			<a href="#logar" rel="modal:open">Entrar</a>
+			<a href="#lista" rel="modal:open">Minha Lista</a>
+			<a href="#logar" id="user" rel="modal:open">Entrar</a>
 		</nav>
 	</div>
 </header><!--fim do navbar-->
@@ -70,7 +70,14 @@
 <div id="ex1" class="modal">
  <a href="#" rel="modal:close"></a>
   <img src="img/mini-info-1.jpg" class="md-image">
-  <h3 class="titulo">Os Jovens Titãs em Ação! Nos Cinemas</h3>
+  <h3 class="titulo-modal">Os Jovens Titãs em Ação! Nos Cinemas</h3>
+  <p class="sinopse-modal">
+	Robin, Ciborgue, Estelar, Ravena e Mutano são os Jovens Titãs. Ao perceberem que todos os super-heróis estão estrelando filmes, eles decidem se mobilizar para também ter espaço nas telonas. O líder do grupo, Robin, está determinado a ser visto como um astro e com ideias malucas e até uma canção eles partem em busca de um diretor de Hollywood, mas acabam enganados por um supervilão.
+  </p>
+  <button role="button" class="botao" id="play-banner">
+		<i class="fas fa-play"></i>
+		<a href="#video" rel="modal:open">ASSISTIR AGORA</a>
+	</button>
 </div>
 
 <!--modal vídeo-->
@@ -97,6 +104,7 @@
 
   </form>
 </div>
+
 
 </main><!--meu main termina aqui-->
 
@@ -262,7 +270,6 @@
 	    </div>
 	</div>
 </div><!--meu carrossel termina aqui-->
-
 
 <!--meus scripts começam aqui-->
 <!--sempre carregue o javascript ao final da página :) -->
