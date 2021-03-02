@@ -31,4 +31,5 @@ um clone da página inicial da netflix utilizando HTML, CSS e JavaScript.
 - Alterei a biblioteca, o modal vem por padrão na cor branca, alterei as propriedades do CSS para retornar o background na cor preta.
 - -Apliquei responsividade na página.
 
+![responsividade](https://github.com/LaisGalvao/recriando-netflix/blob/main/img/ezgif.com-gif-maker.mp4)
 
