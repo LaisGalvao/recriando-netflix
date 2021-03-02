@@ -6,16 +6,13 @@ var login = document.getElementById('txtlogin').value;
 var pass = document.getElementById('txtsenha').value;
 
 	/*fiz de forma simples, se o login for diferente do que
-	coloquei aqui, ele barra!*/
-	if(login === "user@name" && pass ==="123"){
+	coloquei aqui, ele dá um alert*/
+	if(login === "user@name" && pass ==="1234"){
 
-		//alert("logado!")
-
-  var element = document.getElementById("myDIV");
-   element.classList.add("mystyle");
+	alert("Seja bem vindo(a) " +login+" !");
 
 	}else {
-		//alert("errado!");
+		alert("Usuário ou senha incorretos. Cadastre-se!");
 	}
 
 }
